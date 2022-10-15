@@ -1,7 +1,7 @@
 {
   "name": "localforage-types",
   "description": "Provide an extendable typing for `localforage` TypeScript `.d.ts` declaration file.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "",
   "typings": "index.d.ts",
   "repository": "git@github.com:socheatsok78/localforage-types.git",

@@ -74,7 +74,12 @@ declare module "localforage" {
 
     export interface LocalForageDbMethods extends LocalForageDbMethodsCore, LocalForageDbMethodsOptional {}
 
-    export interface LocalForage extends LocalForageDbMethods {
+    // An extra interface for you to extends
+    export interface LocalForageExtra {
+        //
+    }
+
+    export interface LocalForage extends LocalForageExtra, LocalForageDbMethods {
         LOCALSTORAGE: string;
         WEBSQL: string;
         INDEXEDDB: string;
